@@ -128,4 +128,13 @@ for (let i = 0; i < animalsArray.length; i++) {
   // al terzo giro str è diventata "Cat Dog Parrot "
 }
 
+//
+console.log(str)
+
+str = ''
+
+for (const animal of animalsArray) {
+  // animal al primo giro è il gatto, al secondo è il cane, al terzo è il pappagallo
+  str = str + animal.species + ' '
+}
 console.log(str)
